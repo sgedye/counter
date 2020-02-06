@@ -6,8 +6,38 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.wrapper {
+	width: 350px;
+	margin: auto;
+	border: 5px solid #000000;
+	padding: 30px;
+	background: #ffffcc;
+	border-radius: 15px;
+}
+.buttons {
+	background-color: rgba(120,120,120,.9);
+	padding: 5px;
+	border: 1px solid #000;
+	border-radius: 15px;
+	display: flex;
+	justify-content: space-around;
+}
+button {
+	width: 85px;
+	padding: 10px;
+	margin: 5px;
+	font-size: 12px;
+	border-radius: 15px;
+	border: 1px solid #000;
+}
+h1 {
+	text-align: center;
+	margin: 20px auto;
+}
+h2 {
+	font-size: 3em;
+	text-align: center;
+	padding: 0 auto;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
